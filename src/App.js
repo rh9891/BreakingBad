@@ -8,23 +8,23 @@ import "./App.css";
 const App = () => {
   const [characters, setCharacters] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [query, setQuery] = useState("");
 
   useEffect(() => {
     const fetchCharacters = async () => {
-      const result = await axios(`https://www.breakingbadapi.com/api/characters`);
+      const result = await axios(`https://www.breakingbadapi.com/api/characters?name=${query}`);
 
-      console.log(result.data);
       setCharacters(result.data);
       setIsLoading(false);
     }
 
     fetchCharacters();
-  }, []);
+  }, [query]);
 
   return (
     <div className="container">
       <Header />
-      <Search />
+      <Search getQuery={(userQuery) => setQuery(userQuery)}/>
       <CharacterGrid isLoading={isLoading} characters={characters} />
     </div>
   );
