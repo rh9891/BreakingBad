@@ -46,7 +46,7 @@ The following animation demonstrates the complete application functionality:
   <img width="800" height="390" src="assets/videos/breakingBadFunctionalityPreview.gif">
 </p>
 
-To download the above video file of the application functionality, you may do so [here]().
+To download the above video file of the application functionality, you may do so [here](https://github.com/rh9891/BreakingBad/blob/master/assets/videos/breakingBadFunctionalityPreview.mp4).
 
 ## Links
 
