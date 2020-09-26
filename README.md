@@ -38,11 +38,11 @@ THEN I will be able to filter the characters based on my query.
 
 ## Preview of Breaking Bad
 
-![Breaking Bad Landing Page]()
+![Breaking Bad Landing Page](assets/images/breakingBadLandingPage.png)
 
 The following animation demonstrates the complete application functionality:
 
-![Breaking Bad Functionality Preview]()
+![Breaking Bad Functionality Preview](assets/videos/breakingBadFunctionalityPreview.gif)
 
 To download the above video file of the application functionality, you may do so [here]().
 
